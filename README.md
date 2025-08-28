@@ -7,57 +7,57 @@ Designed as a real-time AI-powered personal assistant, Jarvis combines face/obje
 🚀 Features
 🧠 Core AI
 
-Voice commands (speech-to-text)
+1. Voice commands (speech-to-text)
 
-Natural chat powered by Groq API (Meta LLaMA 3 model)
+2. Natural chat powered by Groq API (Meta LLaMA 3 model)
 
-Voice replies (text-to-speech)
+3. Voice replies (text-to-speech)
 
 📅 Productivity
 
-To-do list manager
+1. To-do list manager
 
-Reminders & notifications
+2. Reminders & notifications
 
-Alarms & timers
+3. Alarms & timers
 
-News updates (via API)
+4. News updates (via API)
 
-Weather reports (via API)
+5. Weather reports (via API)
 
-World clock & time updates
+6. World clock & time updates
 
 👁️ Vision (Security)
 
-Face recognition (authorized / unauthorized)
+1. Face recognition (authorized / unauthorized)
 
-Facial expression detection
+2. Facial expression detection
 
-Object detection (YOLOv8)
+3. Object detection (YOLOv8)
 
-Unauthorized alerts + voice warnings
+4. Unauthorized alerts + voice warnings
 
 🖥️ PC Automation
 
-Open/close applications
+1. Open/close applications
 
-Control apps with voice
+2. Control apps with voice
 
-Voice typing anywhere
+3. Voice typing anywhere
 
-Smart search (Google, YouTube, Amazon, Flipkart)
+4. Smart search (Google, YouTube, Amazon, Flipkart)
 
-Auto form filling & navigation
+5. Auto form filling & navigation
 
-Scroll, click, tab switching via voice
+6. Scroll, click, tab switching via voice
 
-Shutdown / restart / sleep via voice
+7. Shutdown / restart / sleep via voice
 
 ⚡ Extra Smart Features
 
-AI Friend conversation mode
+1. AI Friend conversation mode
 
-Battery monitoring + alerts
+2. Battery monitoring + alerts
 
 🏗️ System Architecture
 
@@ -88,7 +88,6 @@ python -m venv .venv
 pip install -r requirements.txt
 
 ▶️ Running Jarvis
-
 Jarvis has two modules that need to run in parallel:
 
 1️⃣ Run Security System (Face + Object Detection)
@@ -98,47 +97,41 @@ python main.py
 python -m ai_core.main_ai
 
 🔑 API Setup
-
 Groq API (for natural chat):
-
 Get your API key from Groq Console
 .
-
 Add it to an .env file:
 
 GROQ_API_KEY=your_key_here
 
 
 News API (for daily news):
-
 Sign up at NewsAPI
 .
-
 Add key to .env:
 
 NEWS_API_KEY=your_key_here
 
 
 Weather API (for weather reports):
-
 Use OpenWeather
 .
-
 Add key to .env:
 
 WEATHER_API_KEY=your_key_here
 
+
 📈 Future Roadmap
 
- Web dashboard for real-time monitoring
+ 1. Web dashboard for real-time monitoring
 
- Mobile companion app
+ 2. Mobile companion app
 
- Multi-user support (face-based personalization)
+ 3. Multi-user support (face-based personalization)
 
- Advanced emotion recognition
+ 4. Advanced emotion recognition
 
- Cloud sync for tasks & reminders
+ 5. Cloud sync for tasks & reminders
 
 🤝 Contribution
 

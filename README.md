@@ -59,11 +59,13 @@ Designed as a real-time AI-powered personal assistant, Jarvis combines face/obje
 
 2. Battery monitoring + alerts
 
-🏗️ System Architecture
 
 ## 🏗️ System Architecture
 
-![Jarvis AI Architecture](docs/jarvis_architecture.png)
+<p align="center">
+  <img src="docs/jarvis_architecture.png" alt="Jarvis AI Architecture" width="600">
+</p>
+
 
 
 📂 Project Structure

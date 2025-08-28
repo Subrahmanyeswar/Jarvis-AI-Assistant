@@ -147,5 +147,5 @@ Pull requests are welcome. For major changes, open an issue first to discuss wha
 📬 Contact
 
 Developed by Subrahmanyeswar
-📧 Reach me at: subrahmanyeswarkolluru@gmail.comS
+📧 Reach me at: subrahmanyeswarkolluru@gmail.com
 🌐 GitHub: @Subrahmanyeswar

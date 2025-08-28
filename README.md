@@ -61,6 +61,11 @@ Designed as a real-time AI-powered personal assistant, Jarvis combines face/obje
 
 🏗️ System Architecture
 
+## 🏗️ System Architecture
+
+![Jarvis AI Architecture](docs/jarvis_architecture.png)
+
+
 📂 Project Structure
 Jarvis-AI-Assistant/
 │── main.py                  # Runs security modules (face + object detection)

@@ -70,6 +70,30 @@ Copy code
 
 ---
 
+👤 Authorized Faces
+
+This project supports face authentication.
+For privacy reasons, no sample images are included in this repo.
+
+To enable this feature:
+
+Add your own images into the folder:
+
+data/authorized_faces/<your_name>/
+
+
+Each folder should contain multiple images of that person.
+
+Jarvis will automatically detect and authorize based on those images.
+
+---
+
+⚠️ Disclaimer
+
+This repository does not include any personal or sensitive face data.
+You must add your own authorized images for testing.
+
+---
 ## ⚙️ Installation  
 
 ```bash
